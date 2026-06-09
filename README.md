@@ -1,2 +1,16 @@
-# Sistema_de_Streaming_REFATORADO_TRYCATCH_ENUMS
-Plataforma de streaming de vídeo refatorada para garantir estabilidade. Integra controle de assinaturas e categorias de mídia via Enums, além de um sistema resiliente de reprodução que utiliza tratamento de erros (try-catch) para mitigar falhas de carregamento e acesso.
+# Streaming Platform Refactored
+
+Repositório dedicado à refatoração de um **Sistema de Streaming** em Java. O projeto simula o funcionamento de catálogos e reprodução de vídeos, priorizando a estabilidade da aplicação em cenários de erro e a organização de categorias.
+
+## 🚀 Melhorias Aplicadas
+
+* **Tratamento de Exceções (`try-catch`):** Controle rigoroso de erros de carregamento de mídia, verificação de permissões de usuário e falhas de conexão simuladas, impedindo o fechamento inesperado do sistema.
+* **Uso de `Enums`:** Categorização estática de planos de assinatura (ex: `FREE`, `PREMIUM`, `FAMILY`) e tipos de conteúdo (ex: `FILME`, `SERIE`, `DOCUMENTARIO`).
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Linguagem:** Java
+* **Paradigma:** Orientação a Objetos (POO)
+
+---
+*Código limpo, tipagem segura e tratamento de erros eficiente.*
